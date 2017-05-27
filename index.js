@@ -1,4 +1,4 @@
-let $ = JQuery = require('jquery');
+let $ = require('jquery');
 /**
  * turn.js 4th release
  * turnjs.com
@@ -7,7 +7,6 @@ let $ = JQuery = require('jquery');
  * Copyright (C) 2012 Emmanuel Garcia
  * All rights reserved
  **/
-
 (function($) {
 
     'use strict';
@@ -3350,4 +3349,4 @@ let $ = JQuery = require('jquery');
     $.cssTransitionEnd = getTransitionEnd;
     $.findPos = findPos;
 
-})(jQuery);
+})($);
